@@ -3,6 +3,7 @@ $secondary-color: #2e2e2e;
 $accent-color: #ff6f61;
 $text-color: #ffffff;
 $extra-color: adjust-color($accent-color, $lightness: 10%);
+//$extra-color: color.adjust($accent-color, $lightness: 10%);
 
 body {
     margin: 0;
