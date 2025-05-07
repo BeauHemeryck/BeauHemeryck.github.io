@@ -23,6 +23,32 @@ body {
   height: 100vh;
   height: 100dvh;
 }
+.sidebar #hire-me {
+  margin: auto 0;
+  width: 100%;
+}
+.sidebar #hire-me h2 {
+  color: #ff6f61;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.sidebar #hire-me .hire-options {
+  list-style: none;
+  padding: 0;
+}
+.sidebar #hire-me .hire-options li {
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: rgb(33.25, 33.25, 33.25);
+  border-radius: 6px;
+  text-align: center;
+}
+.sidebar #hire-me .hire-options li strong {
+  display: block;
+  color: #ff6f61;
+}
 .sidebar section#contact {
   margin-top: auto;
   padding-top: 2rem;
@@ -139,7 +165,8 @@ nav ul li a:hover {
   .sidebar .avatar {
     margin-bottom: 0.5rem;
   }
-  .sidebar h1, .sidebar h2 {
+  .sidebar h1,
+  .sidebar h2 {
     width: 100%;
     margin: 0.5rem 0;
   }

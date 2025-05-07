@@ -30,6 +30,36 @@ body {
     height: 100vh;
     height: 100dvh;
 
+    #hire-me {
+        margin: auto 0;
+        width: 100%;
+        h2 {
+            color: $accent-color;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .hire-options {
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 0.85rem;
+                margin: 0.5rem 0;
+                padding: 0.5rem;
+                background-color: darken($secondary-color, 5%);
+                border-radius: 6px;
+                text-align: center;
+
+                strong {
+                    display: block;
+                    color: $accent-color;
+                }
+            }
+        }
+    }
+
     section#contact {
         margin-top: auto;
         padding-top: 2rem;
@@ -39,7 +69,7 @@ body {
             color: $accent-color
         }
 
-      
+
         a {
             color: $accent-color;
             text-decoration: none;
@@ -78,13 +108,15 @@ nav ul {
 
     li {
         margin: 0.5rem 0;
+
         a {
             color: $accent-color;
             text-decoration: none;
+
             &:hover {
                 text-decoration: underline;
             }
-        }   
+        }
     }
 
 }
@@ -149,56 +181,57 @@ nav ul {
         }
     }
 }
+
 @media (max-width: 768px) {
     .container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .sidebar {
-      width: 100%;
-      height: auto;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
-      padding: 1rem 0 0;
-  
-      .avatar {
-        margin-bottom: 0.5rem;
-      }
-  
-      h1, h2 {
         width: 100%;
-        margin: 0.5rem 0;
-      }
-  
-      nav ul {
-        display: flex;
+        height: auto;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
-        gap: 1rem;
-        padding-top: 0.4rem;
-      }
-  
-      section#contact {
-        width: 100%;
-        margin: 0;
-        padding: 0;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
+        padding: 1rem 0 0;
+
+        .avatar {
+            margin-bottom: 0.5rem;
+        }
+
+        h1,
+        h2 {
+            width: 100%;
+            margin: 0.5rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            gap: 1rem;
+            padding-top: 0.4rem;
+        }
+
+        section#contact {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
-  
+
     .content {
-      padding: 1rem;
-  
-      #certificates .certificate-category .certificate-list {
-        justify-content: center;
-      }
+        padding: 1rem;
+
+        #certificates .certificate-category .certificate-list {
+            justify-content: center;
+        }
     }
-  }
-  
+}
