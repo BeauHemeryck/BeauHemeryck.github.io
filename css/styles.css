@@ -185,7 +185,10 @@ nav ul li a:hover {
     gap: 1rem;
     padding-top: 0.4rem;
   }
-  .sidebar section#contact {
+  .sidebar nav ul a {
+    text-decoration: underline;
+  }
+  .sidebar nav section#contact {
     width: 100%;
     margin: 0;
     padding: 0;
