@@ -123,4 +123,50 @@ nav ul li a:hover {
   transform: scale(1.05);
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 0 0;
+  }
+  .sidebar .avatar {
+    margin-bottom: 0.5rem;
+  }
+  .sidebar h1, .sidebar h2 {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .sidebar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    padding-top: 0.4rem;
+  }
+  .sidebar section#contact {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    padding: 1rem;
+  }
+  .content #certificates .certificate-category .certificate-list {
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
