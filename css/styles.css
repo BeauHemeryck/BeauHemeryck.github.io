@@ -186,7 +186,7 @@ nav ul li a:hover {
     padding-top: 0.4rem;
   }
   .sidebar nav ul a {
-    text-decoration: underline;
+    border-bottom: 1px solid #ff6f61;
   }
   .sidebar nav section#contact {
     width: 100%;
