@@ -81,6 +81,7 @@ h2 {
 nav ul {
   list-style: none;
   padding: 0;
+  display: none;
 }
 nav ul li {
   margin: 0.5rem 0;
