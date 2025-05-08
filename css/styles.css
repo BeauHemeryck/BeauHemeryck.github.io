@@ -194,9 +194,6 @@ nav ul li a:hover {
     gap: 1rem;
     padding-top: 0.4rem;
   }
-  .sidebar nav ul a {
-    border-bottom: 1px solid #ff6f61;
-  }
   .sidebar #contact {
     width: 100%;
     margin: 0;
@@ -220,6 +217,7 @@ nav ul li a:hover {
     background-color: transparent;
     color: #ffffff;
     padding-top: 0.5rem;
+    display: none;
   }
   .content #certificates .certificate-category .certificate-list .certificate-item a {
     display: flex;

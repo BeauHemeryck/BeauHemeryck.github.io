@@ -230,10 +230,6 @@ nav ul {
       width: 100%;
       gap: 1rem;
       padding-top: 0.4rem;
-
-      a {
-        border-bottom: 1px solid $accent-color;
-      }
     }
 
     #contact {
@@ -261,6 +257,7 @@ nav ul {
         background-color: transparent;
         color: $text-color;
         padding-top: 0.5rem;
+        display: none;
       }
 
       .certificate-item a {
